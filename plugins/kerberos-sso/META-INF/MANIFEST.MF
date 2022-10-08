@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Kerberos SSO plugin
+Specification-Version: 1.10
+Implementation-Title: Kerberos SSO plugin
+Implementation-Version: 1.10
+Group-Id: com.sonymobile.jenkins.plugins.kerberos-sso
+Short-Name: kerberos-sso
+Long-Name: Kerberos SSO plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Kerberos+SSO+Plugin
+Plugin-Version: 1.10
+Hudson-Version: 2.332.4
+Jenkins-Version: 2.332.4
+Plugin-Dependencies: configuration-as-code:1512.vb_79d418d5fc8
+Plugin-Developers: Fredrik Persson:fredrikpersson:fredrik6.persson@sonym
+ obile.com,Joakim Ahle:joakim_ahle:joakim.ahle@sonymobile.com,Robert San
+ dell:rsandell:robert.sandell@sonymobile.com,Tomas Westling:t_westling:t
+ omas.westling@sonymobile.com,Oliver Gondža:olivergondza:ogondza@gmail.
+ com
+Plugin-ScmUrl: https://github.com/jenkinsci/plugin-pom/kerberos-sso
+

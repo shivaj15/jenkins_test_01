@@ -1,0 +1,3 @@
+[filesystem "Red Hat, Inc.|11.0.16.1|/dev/mapper/centos_rhel7-root"]
+	timestampResolution = 6000 nanoseconds
+	minRacyThreshold = 2529 microseconds

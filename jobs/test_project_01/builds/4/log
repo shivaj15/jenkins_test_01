@@ -1,0 +1,21 @@
+Started by user [8mha:////4OUZ/8pFTjz4VwU1+01oMn7xt0YUXa+wKq+3tTOURVzYAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZh/dLi1CL9rNS87My84vjElNzMPACQwAIOyAAAAA==[0mshiva
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/test_project_01
+The recommended git tool is: NONE
+using credential JenkinsGitHubSSHKeys
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test_project_01/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:shivaj15/python.git # timeout=10
+Fetching upstream changes from git@github.com:shivaj15/python.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+using GIT_SSH to set credentials SSH Key for Jenkins user
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/test_project_01@tmp/jenkins-gitclient-ssh10725105796501701982.key
+Verifying host key using known hosts file
+ > git fetch --tags --progress git@github.com:shivaj15/python.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE
